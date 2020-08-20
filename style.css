@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.key {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  opacity: 50%;
+  font-size: 20px;
+}
+
+.sound {
+  font-size: 15px;
+}
+
+.playing {
+  border: red 5px solid;
+}

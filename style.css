@@ -11,11 +11,10 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
-  background-color: lightgrey;
 }
 
 .key {
-  background-color: black;
+  background-color: gray;
   color: white;
   display: flex;
   flex-direction: column;
@@ -23,9 +22,8 @@
   text-align: center;
   width: 75px;
   height: 75px;
-  opacity: 50%;
   font-size: 20px;
-  transition: all 0.3s ease;
+  transition: all 0.07s ease;
 }
 
 .sound {
@@ -34,5 +32,6 @@
 
 .playing {
   transform: scale(1.1);
+  box-shadow: 0 0 1rem greenyellow;
 }
 
